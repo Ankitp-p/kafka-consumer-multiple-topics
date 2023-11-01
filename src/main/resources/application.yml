@@ -1,0 +1,14 @@
+
+server:
+  port: 8989
+
+
+primarykafka:
+  bootstrapserver: localhost:9092
+  group_id: group_id
+  topic: number_test
+
+secondarykafka:
+  bootstrapserver: localhost:9092
+  group_id: group_id
+  topic: alphabet_test
